@@ -20,12 +20,12 @@ int main() {
   cout << "In int: \n";
   cout << "Area of a rectangle is: " << area(5) << endl;
   cout << "Area of a square is: " << area(5, 5) << endl;
-  cout << "Area of a triangle is: " << area(5, 5, 5) << endl;
+  cout << "Area of a cuboid is: " << area(5, 5, 5) << endl;
 
   cout << "In float: \n";
   cout << "Area of a rectangle is: " << area(5.5) << endl;
   cout << "Area of a square is: " << area(5.5, 5.5) << endl;
-  cout << "Area of a triangle is: " << area(5.5, 5.5, 5.5) << endl;
+  cout << "Area of a cuboid is: " << area(5.5, 5.5, 5.5) << endl;
 
   cout << "\n";
   return 0;
