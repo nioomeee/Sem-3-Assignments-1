@@ -3,11 +3,15 @@
 #include <iostream>
 using namespace std;
 
-template <typename T> class DataType {
+template <typename T> 
+class DataType {
   T data;
 
 public:
-  DataType(T data) { this->data = data; }
+  DataType(T data){ 
+    this->data = data; 
+  }
+
   void display() {
     cout << "\nData Type: " << typeid(data).name() << "\n";
     cout << "Data: " << data << "\n";
